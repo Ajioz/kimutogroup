@@ -136,6 +136,7 @@
 
   .portfolio .bottom .offering-center .offer {
     width: 350px;
+    border-radius: 10px;
   }
 
   .title {
