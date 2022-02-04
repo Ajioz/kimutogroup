@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
+
+button.btnz {
+  background: transparent;
+  border: 0 solid rgba(4, 110, 31, 0.533);
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.6);
+  padding: 5px 20px;
+  border-radius: 2.5rem;
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  font-family: "Nunito", sans-serif;
+  cursor: pointer;
+}
+
+.btn-blog {
+  font-family: "Nunito", sans-serif;
+  color: white;
+}
+
+/* -----------Before Footer----------- */
+.before-footer {
+  display: flex;
+  flex-flow: column wrap;
+  background: rgba(0, 0, 0, 0.8);
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  width: 100%;
+  /* margin-top: -200px; */
+}
+
+.before-footer .sypnosis {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0rem 4rem;
+  margin-bottom: 3.5rem;
+}
+
+.before-footer .sypnosis .sypnosis-heading {
+  color: white;
+  font-size: 1.8rem;
+  font-family: "Nunito", sans-serif !important;
+}
+
+.before-footer .sypnosis .sypnosis-content {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0.5rem 2rem;
+  color: white;
+  justify-content: space-around;
+  flex: 1 0 70%;
+}
+
+.before-footer .sypnosis .sypnosis-content div {
+  width: 30%;
+}
+
+.before-footer .sypnosis .sypnosis-content > div h5 {
+  color: white;
+  font-size: 1.1rem;
+  font-family: "Nunito", sans-serif;
+}
+
+.before-footer .sypnosis .sypnosis-content > div p {
+  color: white;
+  font-size: 0.9rem;
+  font-family: "Nunito", sans-serif;
+}
+
+.before-footer .sypnosis .sypnosis-content > div button {
+  margin: 1rem 0;
+  background: transparent;
+  padding-bottom: 0.3rem;
+}
+
+.before-footer .sypnosis .sypnosis-content > div .btnz:hover {
+  background: transparent;
+  border: solid white 1px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  -webkit-transform: scale(0.98, 0.98);
+  transform: scale(0.98, 0.99);
+}
+
+.before-footer .sypnosis .sypnosis-content > div .btnz:hover::after {
+  opacity: 0;
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.before-footer .sypnosis .sypnosis-content > div .btn-blog:hover {
+  background: transparent;
+  border: none;
+  color: white;
+}
+
+.before-footer .statistics {
+  background: #104f55;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 40vh;
+}
+
+.before-footer .statistics .statistics-heading {
+  color: white;
+  font-size: 1.8rem;
+  font-family: "Nunito", sans-serif;
+}
+
+.before-footer .statistics .statistics-content {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0.5rem 2rem;
+  color: white;
+  justify-content: space-evenly;
+  width: 100%;
+  flex: 1 0 75%;
+  align-items: center;
+}
+
+.before-footer .statistics .statistics-content .stat-icon {
+  width: 25%;
+}
+
+.before-footer .statistics .statistics-content .stat-icon i {
+  padding: 1rem 2rem;
+  font-size: 3.5rem;
+  color: rgb(199, 37, 37);
+}
+
+.before-footer .statistics .statistics-content .stat-icon span {
+  color: white;
+  font-size: 1.2rem;
+  font-family: "Nunito", sans-serif;
+}
+
+.before-footer .contact-us {
+  display: flex;
+  flex-flow: column wrap;
+  min-height: 30vh;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.before-footer .contact-us p {
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.2rem;
+}
+
+.before-footer .contact-us .btnz:hover {
+  background: transparent;
+  color: white;
+  border: solid white 1px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  -webkit-transform: scale(0.98, 0.98);
+  transform: scale(0.98, 0.99);
+}
+
+.before-footer .contact-us .btnz:hover::after {
+  opacity: 0;
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+/* -----X-----Before Footer----X------ */
+
+@media only screen and (max-width: 520px) {
+  .before-footer .sypnosis .sypnosis-heading h2,
+  .before-footer .statistics .statistics-heading h2 {
+    font-size: 1.5rem;
+  }
+
+  .before-footer .sypnosis .sypnosis-content div,
+  .before-footer .statistics .statistics-content div {
+    flex: 100%;
+    margin: 0 1rem;
+  }
+
+  .before-footer .sypnosis .sypnosis-content {
+    padding: 0.5rem 2rem;
+    margin: 0 auto;
+  }
+
+  .before-footer .statistics .statistics-content {
+    padding: 0.5rem 2rem;
+    margin: 0 auto;
+  }
+
+  .before-footer .contact-us {
+    padding: 0 3rem;
+    margin: 0 auto;
+  }
+
+  .before-footer .statistics .statistics-content .stat-icon i {
+    padding: 1rem 2rem;
+    margin: 0 auto;
+  }
+
+  .before-footer .sypnosis {
+    margin: 0 auto;
+  }
+
+  .before-footer .sypnosis .sypnosis-content {
+    padding: 1rem 2rem;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .before-footer .sypnosis .sypnosis-heading h2,
+  .before-footer .statistics .statistics-heading h2 {
+    font-size: 1.5rem;
+    margin: 10px auto;
+  }
+}

@@ -1,0 +1,29 @@
+.form-section {
+  display: flex;
+  margin: 0 auto;
+  padding: 40px 0;
+  background-color: rgb(248, 239, 239);
+  width: 100%;
+}
+
+.contact {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+}
+
+.container {
+  width: 50%;
+}
+
+@media only screen and (max-width: 520px) {
+.form-section {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+}
