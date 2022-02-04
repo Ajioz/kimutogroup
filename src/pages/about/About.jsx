@@ -24,7 +24,7 @@ const About = () => {
     const lastIndex = data.length-1;
     if(index < 0) setIndex(lastIndex);
     if(index > lastIndex) setIndex(0)
-  }, [index, data])
+  }, [index])
 
   useEffect(() => {
    let slider =  setInterval(() => {
