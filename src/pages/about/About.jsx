@@ -16,7 +16,6 @@ const About = () => {
       Aos.init();
   }, []);
 
-  // const [division, setDivision] = useState(data);
   const [index, setIndex] = useState(0);
   const [partnerIndex, setPartnerIndex] = useState(0);
 

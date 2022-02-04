@@ -55,7 +55,10 @@ const SingleDiv = () => {
                              )
                            })}
                      </div>
-                     <div className="offering-right" data-aos="fade-down" data-aos-delay="300">We Offer</div>
+                     <div className="offering-right" data-aos="fade-down" data-aos-delay="300">
+                         We Offer
+                         <div className="offer-line"></div>
+                     </div>
                 </div>
 
             </div>
