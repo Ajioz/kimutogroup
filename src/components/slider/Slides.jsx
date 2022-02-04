@@ -3,10 +3,10 @@ import 'materialize-css';
 import { Slider, Slide, Caption } from 'react-materialize'
 
 
-import background from '../../images/Background.png'
-import background2 from '../../images/Background2.png'
-import background3 from '../../images/Background3.jpg'
-import background4 from '../../images/Background4.jpg'
+import background from '../../images/carousel/Background.png'
+import background2 from '../../images/carousel/Background2.png'
+import background3 from '../../images/carousel/Background3.jpg'
+import background4 from '../../images/carousel/Background4.jpg'
 
 
 export default function Slides(){
@@ -16,28 +16,31 @@ export default function Slides(){
       <Slider style={{marginBottom: '-50px'}}>
          <Slide image={<img alt="" src={background}/>}>
           <Caption placement="center">
-            <h3>We are Nigeria's Pride</h3>
-            <h5 className="light grey-text text-lighten-3">First of its kind</h5>
+            <h3>We are Road Master</h3>
+            <h5 className="light grey-text text-lighten-3">We Design and construction of roads, drainages and bridges</h5>
           </Caption>
         </Slide>
 
          <Slide image={<img alt="" src={background2}/>}>
           <Caption placement="left">
-            <h3>We Process Cassava</h3>
-            <h5 className="light grey-text text-lighten-3">We feed the Nation</h5>
+            <h3>We do Procurement Services</h3>
+            <h5 className="light grey-text text-lighten-3">KEL has vast resources of highly skilled and dedicated professionals (project managers,engineers, technicians and trainers)</h5>
           </Caption>
         </Slide>
 
          <Slide image={<img alt="" src={background3}/>}>
           <Caption placement="right">
-            <h3>With State of Art Equipment</h3>
-            <h5 className="light grey-text text-lighten-3">Using the most Advance technologyin food cassava processing</h5>
+            <h3>With State of Art Equipment, we carry Equipment Protection</h3>
+            <h5 className="light grey-text text-lighten-3">High Quality Coating, Flooring & Lining Protection Services for: Individuals, Corporate Bodies, Oil and Gas, Military</h5>
           </Caption>
         </Slide>
 
          <Slide image={<img alt="" src={background4}/>}>
           <Caption placement="center">
-            <h3>We Empower Local Farmers</h3>
+            <h3>
+                We have vast experience in engineering design, procurement, installation, 
+                construction and commissioning (EPICC)
+            </h3>
             <h5 className="light grey-text text-lighten-3">Together we are building a formidable economy</h5>
           </Caption>
         </Slide>
@@ -45,5 +48,3 @@ export default function Slides(){
     </>
      )
 };
-
-// export default Slides;

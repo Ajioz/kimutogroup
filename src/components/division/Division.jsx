@@ -9,10 +9,7 @@ const Division = ({img, id, title}) => {
             <Link to = {`/division/${id}` }  className="post link" key={id} >
                 <img className="postImg" src={img} alt="" />
                 <div className="postInfo">
-                    <div className="postCats">
-                        {/* {categories.map((cat) => ( <span className="postCat" key={cat._id}>{cat.name}</span> ))}     */}
-                    </div>
-                    <span className="postTitle">{title}</span><hr/>
+                    <span className="postTitle">{title}</span>
                 </div>
                 <div className="btnz">
                      <button>Learn More</button>

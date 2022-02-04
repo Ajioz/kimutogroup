@@ -88,7 +88,6 @@
 }
 
 .portfolio .bottom .offering-right .offer-line {
-  /* display: none; */
   border-bottom: 4px solid rgb(204, 34, 34);
   width: 0%;
 }
@@ -129,14 +128,14 @@
   }
 
   .portfolio .bottom .offering-center {
-    font-weight: 340px;
+    font-weight: 300px;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
   }
 
   .portfolio .bottom .offering-center .offer {
-    width: 300px;
+    width: 350px;
   }
 
   .title {

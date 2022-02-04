@@ -44,16 +44,6 @@
   align-items: center;
 }
 
-.postCat {
-  font-family: "Varela Round", sans-serif;
-  font-size: 14px;
-  color: #be9656;
-  line-height: 20px;
-  margin-top: 10px;
-  margin-right: 10px;
-  cursor: pointer;
-}
-
 .postTitle {
   display: flex;
   font-family: "Josefin Sans", sans-serif;
@@ -63,28 +53,6 @@
   margin: 10px auto;
   font-weight: 700;
   cursor: pointer;
-}
-
-.postDate {
-  font-family: "Lora", serif;
-  font-style: italic;
-  font-size: 13px;
-  color: #999;
-  margin-top: 5px;
-}
-
-.postDesc {
-  font-family: "Varela Round", sans-serif;
-  font-size: 14px;
-  color: #444;
-  line-height: 24px;
-  margin-top: 15px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  padding: 5px 25px;
 }
 
 .btnz {
@@ -138,11 +106,5 @@
 
   .postTitle {
     font-size: 15px;
-  }
-
-  .postDesc {
-    line-height: 0;
-    margin-top: 0;
-    padding: 0;
   }
 }
