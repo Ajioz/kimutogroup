@@ -16,15 +16,15 @@ const About = () => {
       Aos.init();
   }, []);
 
-  const [division, setDivision] = useState(data);
+  // const [division, setDivision] = useState(data);
   const [index, setIndex] = useState(0);
   const [partnerIndex, setPartnerIndex] = useState(0);
 
   useEffect(() => {
-    const lastIndex = division.length-1;
+    const lastIndex = data.length-1;
     if(index < 0) setIndex(lastIndex);
     if(index > lastIndex) setIndex(0)
-  }, [index, division])
+  }, [index, data])
 
   useEffect(() => {
    let slider =  setInterval(() => {
@@ -95,13 +95,13 @@ const About = () => {
             </h2>
           </div>
           <div className="section-center">
-            {division.map((group, personIndex) => {
+            {data.map((group, personIndex) => {
                 const { id, img, title, detail } = group;
                 let position = 'nextSlide';
                 if(personIndex === index){
                   position = 'activeSlide';
                 }
-                if(personIndex === index-1 || (index === 0 && personIndex === division.length -1)){
+                if(personIndex === index-1 || (index === 0 && personIndex === data.length -1)){
                   position = 'lastSlide';
                 }
                 return(
