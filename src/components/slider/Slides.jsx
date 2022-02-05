@@ -37,7 +37,7 @@ export default function Slides(){
 
          <Slide image={<img alt="" src={background4}/>}>
           <Caption placement="center">
-            <h3>We are EPICC are expert</h3>
+            <h3>We are expert in EPICC</h3>
             <h5 className="light grey-text text-lighten-3">
               We have vast experience in engineering design, procurement, installation, construction and commissioning (EPICC)
             </h5>
