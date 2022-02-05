@@ -30,18 +30,17 @@ export default function Slides(){
 
          <Slide image={<img alt="" src={background3}/>}>
           <Caption placement="right">
-            <h3>With State of Art Equipment, we carry Equipment Protection</h3>
+            <h3>We carry Equipment Protection</h3>
             <h5 className="light grey-text text-lighten-3">High Quality Coating, Flooring & Lining Protection Services for: Individuals, Corporate Bodies, Oil and Gas, Military</h5>
           </Caption>
         </Slide>
 
          <Slide image={<img alt="" src={background4}/>}>
           <Caption placement="center">
-            <h3>
-                We have vast experience in engineering design, procurement, installation, 
-                construction and commissioning (EPICC)
-            </h3>
-            <h5 className="light grey-text text-lighten-3">Together we are building a formidable economy</h5>
+            <h3>We are EPICC are expert</h3>
+            <h5 className="light grey-text text-lighten-3">
+              We have vast experience in engineering design, procurement, installation, construction and commissioning (EPICC)
+            </h5>
           </Caption>
         </Slide>
       </Slider>

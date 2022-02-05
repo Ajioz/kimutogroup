@@ -92,17 +92,16 @@ html {
 }
 
 #banner h1 {
-  font-family: var(--Josefin);
+  font-family: Poppins;
   font-size: 30px;
-  padding-left: 50px;
+  padding: 5px 25px;
   color: white;
 }
 
 #banner p {
   font-family: monospace;
-  font-size: 25px;
-  padding-left: 50px;
-  padding-right: 150px;
+  font-size: 15px;
+  padding: 10px 25px;
   color: white;
 }
 
@@ -146,7 +145,7 @@ html {
 
 .grid-flex .grid-left h3 {
   color: var(--midnight);
-  font-family: var(--Livvic);
+  font-family: Poppins;
   font-size: 2rem;
 }
 
@@ -241,7 +240,7 @@ Slider
   margin-top: 4rem;
   width: 80vw;
   /* have to have a height */
-  height: 450px;
+  min-height: 600px;
   max-width: 800px;
   text-align: center;
   position: relative;
@@ -274,7 +273,7 @@ article h4 {
   color: var(--clr-grey-5);
 }
 .icon {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-top: 1rem;
   color: var(--clr-primary-5);
 }
@@ -381,7 +380,7 @@ article.nextSlide {
 }
 
 .services .box-container .box p {
-  font-family: var(--Abel);
+  font-family: Poppins;
   font-weight: lighter !important;
   color: #666 !important;
   padding: 1rem 0;

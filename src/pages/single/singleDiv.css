@@ -127,6 +127,15 @@
     flex: 12;
   }
 
+  .portfolio .center .title {
+    font-size: 25px;
+    padding: 25px 0;
+  }
+
+  .portfolio .center .story {
+    font-size: 20px;
+  }
+
   .portfolio .bottom .offering-center {
     font-weight: 300px;
     margin: 0 auto;
@@ -136,7 +145,7 @@
 
   .portfolio .bottom .offering-center .offer {
     width: 350px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
   }
 
   .title {
