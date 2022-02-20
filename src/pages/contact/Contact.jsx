@@ -1,7 +1,22 @@
 import React from 'react'
 import './contact.css'
+import emailjs from '@emailjs/browser'
 
 export default function Contact() {
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm(
+            'service_adf98ql', 
+            'template_lm4qcdi', 
+            e.target, 
+            'user_rNXHtw1L2PYj69pqkRViv'
+            ).then(res=>{
+                console.log(res)
+            }).catch(err=> console.log(err));
+    }
+    //smtp.hostinger.com, port:465, ssl/tls, expertiniot, innovative1!
     return (
         <>
             <div className="cleanup"></div>
@@ -29,7 +44,7 @@ export default function Contact() {
                         <p>Call or Email Us Regarding Your Need or Issue</p>
                     </div>   
                     <div className="c-inputs">
-                        <form>
+                        <form onSubmit={sendEmail}>
                             <input type="text" placeholder="Full Name" name='name' />
                             <input type="email" placeholder="email@gmail.com" name='email' />
                             <textarea name="message" placeholder="Write Message" ></textarea>

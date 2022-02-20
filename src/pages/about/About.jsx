@@ -83,14 +83,14 @@ const About = () => {
 
         <section className="review" id="review">
           <h1 className="heading">
-              <span>p</span><span>r</span><span>o</span><span>f</span><span>l</span><span>i</span><span>e</span>
+              <span>p</span><span>r</span><span>o</span><span>f</span><span>i</span><span>l</span><span>e</span>
           </h1>
         </section>
         
         <section className="section">
           <div className="title">
             <h2>
-              <span>/</span>kimutogroup.com
+              <span></span>kimutogroup.com
             </h2>
           </div>
           <div className="section-center">
