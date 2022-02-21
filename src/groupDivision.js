@@ -15,8 +15,17 @@ const divisionData = [
         offering: ['High Quality Coating', 'Flooring', 'Lining Protection Services', 'Piping & Pipeline Rehabilitation']
     },
 
-    {
+      {
         id: 3,
+        img: './asset/leasing.jpg',
+        title: 'Equipment Leasing',
+        story: 'KIMUTO ENGINEERING LIMITED (KEL) provides heavy duty equipment to client as appropriate',
+        offering: ['Heavy Duty Construction Equipment', 'Rolling & Rotating Equipment', 'Industrial Machinery', 'Plants and Power Generators', 'Pumps & Complete piping spread']
+    },
+
+
+    {
+        id: 4,
         img: './asset/public_infra.jpg',
         title: 'Public Infrastructure & Utilities',
         story: 'Incorporated in April 2010, we have vast experience in engineering design, procurement, installation, construction and commissioning (EPICC)',
@@ -24,21 +33,14 @@ const divisionData = [
     },
 
     {
-        id: 4,
+        id: 5,
         img: './asset/equipment.png',
         title: 'Supply of Technical Manpower',
         story: 'KIMUTO ENGINEERING LIMITED (KEL) provides quality management services and human capital/manpower solutions (local and expatriate). We are constantly evolving to diversify into other sectors to improve its value chain.',
         offering: ['Supply of specialized expatriate technical manpower', 'Supply of specialized Nigerian manpower', 'Training of personnel', 'manpower development']
     },
 
-    {
-        id: 5,
-        img: './asset/leasing.jpg',
-        title: 'Equipment Leasing',
-        story: 'KIMUTO ENGINEERING LIMITED (KEL) provides heavy duty equipment to client as appropriate',
-        offering: ['Heavy Duty Construction Equipment', 'Rolling & Rotating Equipment', 'Industrial Machinery', 'Plants and Power Generators', 'Pumps & Complete piping spread']
-    },
-
+  
     {
         id: 6,
         img: './asset/maintenance.jpg',
