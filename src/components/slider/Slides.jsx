@@ -39,7 +39,7 @@ export default function Slides(){
           </Caption>
         </Slide>
 
-         <Slide image={<img alt="" src={background5}/>}>
+         <Slide image={<img alt="" src={background2}/>}>
           <Caption placement="left">
             <h3>Something here</h3>
             <h5 className="light grey-text text-lighten-3">KEL has vast resources of highly skilled and dedicated professionals (project managers,engineers, technicians and trainers)</h5>
