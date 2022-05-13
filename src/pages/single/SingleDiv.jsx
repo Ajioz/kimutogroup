@@ -45,7 +45,11 @@ const SingleDiv = () => {
                 </div>
 
                 <div className="bottom" >
-                     <div className="offering-left"></div>
+                    <div className="offering-left">
+                         <h1>
+                             We Offer
+                         </h1>
+                    </div>
                      <div className="offering-center" data-aos="zoom-in" data-aos-delay="200">
                           {status && porfolio[0].offering.map((offer, index)=>{
                              return(
@@ -56,7 +60,6 @@ const SingleDiv = () => {
                            })}
                      </div>
                      <div className="offering-right" data-aos="fade-down" data-aos-delay="300">
-                         We Offer
                          <div className="offer-line"></div>
                      </div>
                 </div>

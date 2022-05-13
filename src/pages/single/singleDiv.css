@@ -117,6 +117,15 @@
   margin: 0 auto;
   background-color: #fff;
 }
+.offering-left {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.offering-left h1{
+  font-size: 2rem;
+  font-weight: 800;
+}
 
 @media only screen and (max-width: 520px) {
   .portfolio,
